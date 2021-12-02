@@ -1,0 +1,115 @@
+.modalContainer-profile {
+    width: 500px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+
+.modalBackground-profile {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    left: 0;
+    top: 0;
+  }
+
+.modalContainer-profile .title-profile  {
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    color: #555;
+  }
+
+.modalContainer-profile .closebtn-profile{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+.closebtn-profile {
+    margin-left: auto;
+    margin-right: 2%;
+  }
+
+.closebtn-profile:hover{
+    color: red;
+  }
+  
+.footer-profile .btnCancel-profile{
+    border: none;
+    outline: none;
+    color: White;
+    background: #3633FF;
+    padding:  10px auto;
+    cursor: pointer;
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 60px;
+  }
+
+.btnCancel-profile:hover{
+      background: red;
+  }
+
+.modalContainer-profile .footer-profile  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:450px){
+  .iconsocial .fa{
+    width: 10%;
+    text-align: center;
+    margin-left: 43%;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width:450px){
+  .footer .btnCancel{
+    margin-top: auto;
+  }
+}
+
+@media (max-width:450px){
+  .modalContainer{
+    height: auto;
+  }
+}
+
+@media (max-width:320px){
+  .closebtn{
+    margin-left: auto;
+    margin-top: 125px;
+  }
+}
+
+@media (max-width:320px){
+  .headerbody .titleNameSchool{
+    height: auto;
+    width: auto;
+  }
+}
